@@ -74,10 +74,6 @@ for (var j = 0; j < h1.length; j++) {
 		s2[j].appendChild(createDiv(i))
 	}
 }
-// var ival = setInterval(function(){
-// 	// pass()
-// 	dateTime(new Date("1995/10/22 19:59:59"), new Date())
-// },1000)
 
 function createDiv(i)
 {
@@ -98,7 +94,6 @@ function zzz(div,top)
 	for (var i = eAll(div).length - 1; i >= 0; i--) {
 		eAll(div)[i].style.marginTop = top * 40 + "px"
 	}
-	// $(div).animate({marginTop:top * 40 + "px"},"slow","swing",function(){})	
 }
 
 
@@ -365,7 +360,7 @@ var IsTD = function()
 					_X -= 0.1
 					_Y = 0
 					main.style.transform = "rotateY(" + _X  + "deg) rotateX(" + _Y +"deg)"
-					if (_X == -360) {
+					if (_X <= -360) {
 						_X = 0
 					}
 				},1000/120)
@@ -401,7 +396,7 @@ window.addEventListener(
 
 		Array.prototype.forEach.call ( d3ds, function(d, index)
 		{
-			d.style.transform = "rotateY(" + index * _deg + "deg) translateZ(500px)"
+			d.style.transform = "rotateY(" + index * _deg + "deg) translateZ(350px)"
 		})
 		IsTD()
 		td.onclick = IsTD
@@ -444,4 +439,4 @@ log(`
           别人笑我忒疯癫，我笑自己命太贱；  
           不见满街漂亮妹，哪个归得程序员？
  =============================================\n`,(!(~+[])+{})[--[~+""][+[]]*[~+[]] + ~~!+[]]+({}+[])[[~!+[]]*~+[]])
-var sb = "上班:" + dateTime(new Date("2017/04/10 08:59:59"), new Date())
+sb = "上班:" + dateTime(new Date("2017/04/10 08:59:59"), new Date())
