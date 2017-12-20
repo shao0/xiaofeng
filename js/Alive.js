@@ -365,7 +365,7 @@ var IsTD = function()
 					_X -= 0.1
 					_Y = 0
 					main.style.transform = "rotateY(" + _X  + "deg) rotateX(" + _Y +"deg)"
-					if (_X == -360) {
+					if (_X <= -360) {
 						_X = 0
 					}
 				},1000/120)
