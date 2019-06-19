@@ -1,4 +1,4 @@
-	* 
+﻿	* 
 	{
 		margin: 0;
 		padding: 0;
@@ -41,7 +41,8 @@
 		}
 		#nan{
 			margin: auto;
-			width: 300px;
+			width: 175px;
+			font-size:1px;
 		}
 		.morseShow
 		{

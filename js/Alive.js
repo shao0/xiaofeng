@@ -1,4 +1,4 @@
-var log = console.log.bind(console)
+﻿var log = console.log.bind(console)
 var c = document.createElement.bind(document)
 var e = document.querySelector.bind(document)
 var eAll = document.querySelectorAll.bind(document)
@@ -110,7 +110,7 @@ function GetMorseObj()
 		morse: [
 		["a",".-"],
 		["b","-..."],
-		["c",".-.-"],
+		["c","-.-."],
 		["d","-.."],
 		["e","."],
 		["f","..-."],
@@ -440,3 +440,4 @@ log(`
           不见满街漂亮妹，哪个归得程序员？
  =============================================\n`,(!(~+[])+{})[--[~+""][+[]]*[~+[]] + ~~!+[]]+({}+[])[[~!+[]]*~+[]])
 sb = "上班:" + dateTime(new Date("2017/04/10 08:59:59"), new Date())
+sy = "上班:" + dateTime(new Date("2019/04/08 08:59:59"), new Date())
